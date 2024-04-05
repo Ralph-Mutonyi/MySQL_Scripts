@@ -65,3 +65,4 @@ UPDATE `universitydb`.`students` SET `GPA` = '2.0' WHERE (`StudentID` = '2');
 UPDATE `universitydb`.`students` SET `GPA` = '4.0' WHERE (`StudentID` = '3');
 UPDATE `universitydb`.`students` SET `GPA` = '3.9' WHERE (`StudentID` = '4');
 UPDATE `universitydb`.`students` SET `GPA` = '2.0' WHERE (`StudentID` = '5');
+
