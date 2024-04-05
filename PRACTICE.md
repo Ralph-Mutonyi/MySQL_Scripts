@@ -56,3 +56,12 @@
 ## Dropping  a table
 
 -- DROP TABLE inventory;    this command is non reversible. 
+
+## Updating the values of a specific column in a table
+## the syntax below is used
+
+UPDATE `universitydb`.`students` SET `GPA` = '3.5' WHERE (`StudentID` = '1');
+UPDATE `universitydb`.`students` SET `GPA` = '2.0' WHERE (`StudentID` = '2');
+UPDATE `universitydb`.`students` SET `GPA` = '4.0' WHERE (`StudentID` = '3');
+UPDATE `universitydb`.`students` SET `GPA` = '3.9' WHERE (`StudentID` = '4');
+UPDATE `universitydb`.`students` SET `GPA` = '2.0' WHERE (`StudentID` = '5');
