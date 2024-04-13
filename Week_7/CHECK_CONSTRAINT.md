@@ -15,3 +15,4 @@ cost NUMERIC (10,2) CHECK (cost > 0),
 # table check constraint. Not limited to one column. 
 CONSTRAINT valid_selling_price CHECK (selling_price > cost)  
 );
+
